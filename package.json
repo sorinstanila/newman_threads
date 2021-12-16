@@ -1,0 +1,16 @@
+{
+  "name": "newman_threads",
+  "version": "0.1",
+  "description": "script to run the newman runner async in parallel",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "dependencies": {
+    "async": "^3.2.2",
+    "newman": "^5.3.0",
+    "path": "^0.12.7"
+  }
+}
